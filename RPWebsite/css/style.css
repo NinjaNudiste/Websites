@@ -1,0 +1,96 @@
+/*
+
+Color scheme :
+
+    #b32f23 red
+    #8d241d dark red
+    #1a1a1a dark grey
+    #707070 grey
+    #b7b7b7 light grey
+*/
+
+
+html
+{
+  width: 100%;
+  height: 100%;
+  padding :0;
+  margin: 0;
+}
+
+/*
+    Header style
+*/
+header img
+{
+  width: 32px;
+  height: 32px;
+}
+
+#nav
+{
+  background-color: #1a1a1a;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#nav li
+{
+  float: left;
+}
+
+#nav li a
+{
+  color: #b7b7b7;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#nav li a:hover
+{
+  color: #8d241d;
+  background-color: #707070;
+}
+
+
+
+/*
+    Background image style
+*/
+
+.background
+{
+  position: relative;  
+}
+
+.background img
+{
+  display: block;
+  width: 100%;
+  filter: grayscale(.6) saturate(2);
+}
+
+.background h1
+{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  color: white;
+  font-size: 2.5em;
+}
+
+.background h1 span
+{
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: 0;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; 
+}
